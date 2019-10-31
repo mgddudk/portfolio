@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Vollkorn", arial;
+}
+body {
+    background-image: url("memphis-mini.png");
+}
+#cointainer {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 0 auto;
+}
+@media screen and (max-width:700px){
+    #navigation {
+        flex-direction: column;
+    }
+    #aboutme {
+        flex-direction: column;
+    }
+    .headersection{
+        margin: 20px;
+    }
+}
+#navigation {
+    background-color: whitesmoke;
+	padding: 0 5%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+}
+a.menu {
+    width: 25%;
+    padding: 15px 30px;
+    color: gray;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    flex:1;
+    transition: all 1s ease;
+}
+a.menu:hover {
+    background-color: gainsboro;
+    color: white;
+    cursor: pointer;
+}
+.active {
+    background-color: gainsboro;
+}
+.header{
+    width: 100%;
+    height:100%;
+}
+
+#aboutme {
+    margin: 0px 20px 100px 20px;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+#photo {
+    background-image: url("girl-657753_1920.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.headersection {
+    max-width: 400px;
+    min-width: 200px;
+    height: auto;
+    margin: 80px 20px 80px 20px;
+    padding: 15px;
+}
+.section {
+    width: 100%;
+    height:100%;
+}
+h2 {
+    text-align: center;
+}
+.h2{
+    height: 60px;
+    width: 100%;
+    padding: 15px;
+    margin:50px 20px 20px 20px;
+}
+#skills {
+    
+}
+.skill{
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    height: 100%;
+}
+.goodknow{
+    height: 140px;
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    text-align: center;
+    vertical-align: center;
+}
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.project{
+    width: 400px;
+    height: 200px;
+    margin: 40px;
+    border: 1px solid black;
+}
+#form {
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+.formField {
+    width: 400px;
+    height: 30px;
+}
+#message {
+    width: 400px;
+    height: 150px;
+}
+#sendBtn {
+    width: 80px;
+    height: 30px;
+}
+.links {
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    justify-content: center;
+}
+.link {
+    width: 200px;
+    height: 150px;
+    padding: 15px;
+    text-align: center;
+}
+i {
+    color: black;
+}
+footer {
+    width: 100%;
+    height: 40px;
+    background-color: grey;
+    color: white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px
+}
+
